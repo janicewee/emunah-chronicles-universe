@@ -50,7 +50,7 @@ export function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-gold/10 text-center">
           <p className="text-muted-foreground font-crimson text-sm">
-            &copy; {new Date().getFullYear()} Emunah Chronicles Universe. All rights reserved.
+            &copy; {new Date().getFullYear()} Janice Wee. All rights reserved.
           </p>
         </div>
       </div>
