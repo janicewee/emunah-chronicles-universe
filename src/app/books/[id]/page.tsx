@@ -126,7 +126,7 @@ export default async function BookDetailPage({ params }: { params: Promise<{ id:
               <h2 className="font-cinzel text-xl font-semibold text-gold mb-4">
                 Excerpt
               </h2>
-              <blockquote className="font-crimson text-lg text-muted-foreground leading-relaxed italic border-l-4 border-gold/30 pl-4">
+              <blockquote className="font-crimson text-lg text-muted-foreground leading-relaxed italic border-l-4 border-gold/30 pl-4 whitespace-pre-line">
                 {book.excerpt}
               </blockquote>
             </div>
