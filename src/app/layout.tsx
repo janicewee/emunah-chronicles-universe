@@ -18,6 +18,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Emunah Chronicles Universe | Christian Speculative Fiction by Janice Wee",
   description: "Explore the Emunah Chronicles Universe - a speculative science fiction fantasy series set in the end times. Discover books, characters, and reading order.",
+  icons: {
+    icon: '/icon.png',
+    apple: '/logo.jpg',
+  },
 };
 
 export default function RootLayout({
