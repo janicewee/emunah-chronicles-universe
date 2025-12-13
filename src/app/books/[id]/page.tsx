@@ -176,22 +176,24 @@ export default async function BookDetailPage({ params }: { params: Promise<{ id:
               </h2>
               
               <div className="grid sm:grid-cols-2 gap-4">
-                <a
-                  href={book.links.fable || "https://fable.co"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 bg-card border border-gold/10 rounded-lg px-4 py-3 hover:border-gold/30 transition-colors group"
-                >
-                  <Users className="w-5 h-5 text-gold" />
-                  <div>
-                    <p className="font-cinzel text-sm font-semibold text-[#e8e4dc] group-hover:text-gold transition-colors">
-                      Start a Book Club
-                    </p>
-                    <p className="font-crimson text-xs text-muted-foreground">
-                      on Fable
-                    </p>
-                  </div>
-                </a>
+                {book.links.fable && (
+                  <a
+                    href={book.links.fable}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 bg-card border border-gold/10 rounded-lg px-4 py-3 hover:border-gold/30 transition-colors group"
+                  >
+                    <Users className="w-5 h-5 text-gold" />
+                    <div>
+                      <p className="font-cinzel text-sm font-semibold text-[#e8e4dc] group-hover:text-gold transition-colors">
+                        Start a Book Club
+                      </p>
+                      <p className="font-crimson text-xs text-muted-foreground">
+                        on Fable
+                      </p>
+                    </div>
+                  </a>
+                )}
                 
                 <div className="flex items-center gap-3 bg-card border border-gold/10 rounded-lg px-4 py-3">
                   <Library className="w-5 h-5 text-gold" />
