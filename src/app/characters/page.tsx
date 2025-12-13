@@ -1,8 +1,17 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import { characters, getCharactersByLetter, searchCharacters } from "@/lib/characters";
+import { books } from "@/lib/books";
 import { Search, ChevronDown, ChevronUp, BookOpen } from "lucide-react";
+
+function getBookIdByTitle(title: string): string | null {
+  const book = books.find(
+    (b) => b.title === title || b.title.toLowerCase() === title.toLowerCase()
+  );
+  return book ? book.id : null;
+}
 
 export default function CharactersPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -185,14 +194,25 @@ function CharacterCard({ character, isExpanded, onToggle }: CharacterCardProps) 
               Appears In
             </h4>
             <div className="flex flex-wrap gap-2">
-              {character.appearances.map((book) => (
-                <span
-                  key={book}
-                  className="bg-gold/10 text-gold px-3 py-1 rounded-full font-crimson text-sm"
-                >
-                  {book}
-                </span>
-              ))}
+              {character.appearances.map((book) => {
+                const bookId = getBookIdByTitle(book);
+                return bookId ? (
+                  <Link
+                    key={book}
+                    href={`/books/${bookId}`}
+                    className="bg-gold/10 text-gold px-3 py-1 rounded-full font-crimson text-sm hover:bg-gold/20 transition-colors"
+                  >
+                    {book}
+                  </Link>
+                ) : (
+                  <span
+                    key={book}
+                    className="bg-gold/10 text-gold px-3 py-1 rounded-full font-crimson text-sm"
+                  >
+                    {book}
+                  </span>
+                );
+              })}
             </div>
           </div>
         </div>
