@@ -1,16 +1,13 @@
 import { notFound } from "next/navigation";
-import Image from "next/image";
 import Link from "next/link";
 import { getBookById, getBooksByReadingOrder } from "@/lib/books";
 import { 
-  ShoppingCart, 
   BookOpen, 
   ArrowLeft, 
   ArrowRight,
   ExternalLink,
   Play,
   Library,
-  MessageSquare,
   Users
 } from "lucide-react";
 
@@ -68,12 +65,10 @@ export default async function BookDetailPage({ params }: { params: Promise<{ id:
           <div className="lg:col-span-1">
             <div className="sticky top-24">
               <div className="relative aspect-[2/3] rounded-lg overflow-hidden mystic-glow mb-6">
-                <Image
+                <img
                   src={book.coverUrl}
                   alt={book.title}
-                  fill
-                  className="object-cover"
-                  priority
+                  className="absolute inset-0 w-full h-full object-cover"
                 />
                 <div className="absolute top-3 left-3 bg-gold text-[#0a0a0f] w-10 h-10 rounded-full flex items-center justify-center font-cinzel font-bold">
                   {book.readingOrder}
@@ -152,11 +147,10 @@ export default async function BookDetailPage({ params }: { params: Promise<{ id:
                       className="bg-card border border-gold/10 rounded-lg overflow-hidden hover:border-gold/30 transition-colors group"
                     >
                       <div className="relative aspect-video">
-                        <Image
+                        <img
                           src={`https://img.youtube.com/vi/${video.id}/mqdefault.jpg`}
                           alt={video.title}
-                          fill
-                          className="object-cover"
+                          className="absolute inset-0 w-full h-full object-cover"
                         />
                         <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                           <Play className="w-12 h-12 text-white" />
