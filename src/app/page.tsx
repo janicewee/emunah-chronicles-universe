@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { BookCard } from "@/components/BookCard";
 import { getBooksByReadingOrder } from "@/lib/books";
 import { ArrowRight, BookOpen, Users, Library } from "lucide-react";
@@ -69,11 +68,10 @@ export default function Home() {
               </div>
             </div>
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden mystic-glow">
-              <Image
+              <img
                 src={books[0].coverUrl}
                 alt="Featured Book"
-                fill
-                className="object-cover"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
           </div>
