@@ -37,13 +37,22 @@ export default function ReadingOrderPage() {
                 </div>
                 
                 <div className="flex-shrink-0 relative w-16 h-24 rounded overflow-hidden">
-                  <Image
-                    src={book.coverUrl}
-                    alt={book.title}
-                    fill
-                    className="object-cover"
-                    sizes="64px"
-                  />
+                  {book.videoCoverUrl ? (
+                    <video
+                      src={book.videoCoverUrl}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      className="absolute inset-0 w-full h-full object-cover"
+                    />
+                  ) : (
+                    <img
+                      src={book.coverUrl}
+                      alt={book.title}
+                      className="absolute inset-0 w-full h-full object-cover"
+                    />
+                  )}
                 </div>
                 
                 <div className="flex-grow min-w-0">

@@ -6,6 +6,7 @@ export interface Book {
   synopsis: string;
   excerpt: string;
   coverUrl: string;
+  videoCoverUrl?: string;
   links: {
     books2read?: string;
     amazon?: string;
@@ -59,6 +60,7 @@ That was the last he would ever hear from her.`,
 Ben walked in silence, leading Abigail to their seats. Though physically present, his mind was elsewhere.
 Bouncing his leg as he sat, he mumbled. "Abigail, wait here," he stood up.`,
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg",
+    videoCoverUrl: "/abigail-cover.mp4",
     links: {
       books2read: "https://books2read.com/u/bPwEYr",
       amazon: "https://www.amazon.com/Abigail-Emunah-Short-Stories-Janice/dp/B0D4SYB3NF",
