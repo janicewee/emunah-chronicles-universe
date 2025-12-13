@@ -44,6 +44,7 @@ That was the last he would ever hear from her.`,
       everand: "https://www.everand.com/book/674768037/Disturbing-Dreams-Emunah-Chronicles-1",
     },
     videos: [
+      { id: "u8LHvbNyiDo", title: "Emunah Chronicles Book 1", description: "Eerie science and supernatural encounters drive Emunah and her friends down a rabbit hole." },
       { id: "DM5IRa4QSfc", title: "Disturbing Dreams Book Trailer", description: "Emunah's nightmare. Is it a prophecy of things to come?" },
       { id: "3qYv8rvklaE", title: "Emunah Chronicles Book 1", description: "Eerie science and supernatural encounters drive Emunah and her friends down a rabbit hole." },
     ],
