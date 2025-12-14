@@ -172,7 +172,7 @@ function CharacterCard({ character, isExpanded, onToggle }: CharacterCardProps) 
                 src={character.image}
                 alt={character.name}
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="64px"
               />
             </div>
