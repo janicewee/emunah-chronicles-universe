@@ -51,6 +51,11 @@ export const characters: Character[] = [
     appearances: ["The Quest for Immortality"]
   },
   {
+    name: "Anne",
+    description: "A human girl. She wears strong perfume which some find offensive. Bluma's roommate in campus and best friend. All students in St Lydia's Academy live in St Lydia's Hearth. Later becomes Elijah's love interest.",
+    appearances: ["Billy & Bluma: Double Trouble", "Secret Hero & His Flying Lion", "Dragon Unbound"]
+  },
+  {
     name: "Antonio",
     description: "A brave young man. Army recruit who was injured and on the brink of death. Accepted Beast's program for an android body. Serves The Antichrist's camp.",
     appearances: ["The Quest for Immortality"]
@@ -61,8 +66,13 @@ export const characters: Character[] = [
     appearances: ["The Quest for Immortality"]
   },
   {
+    name: "Arthur",
+    description: "A mortal man. Theodore's elder brother who was jealous of him.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
     name: "Ava",
-    description: "A beautiful woman who is Emunah's friend. When her best friend Emma betrays her, she is rescued by Jayden. Jayden brings her to The Ark against Leo's orders and Leo makes Jayden Ava's jailer. Ava and Jayden fall in love, he proposes but dies saving her life from Beast's enhanced soldiers. Ava meets Boris through Mei. A widow, Boris falls for Ava and woos her. Ava is unable to let go of Jayden. Jayden returns after the 7 Year Tribulation as a resurrected saint reigning with Christ, but as an immortal, he can no longer marry and start a family.",
+    description: "A beautiful woman who is Emunah's friend. When her best friend Emma betrays her, she is rescued by Jayden. Jayden brings her to The Ark against Leo's orders and Leo makes Jayden Ava's jailer. Ava and Jayden fall in love, he proposes but dies saving her life from Beast's enhanced soldiers. Ava meets Boris through Mei. A widow, Boris falls for Ava and woos her. Ava is unable to let go of Jayden. Jayden returns after the 7 Year Tribulation as a resurrected saint reigning with Christ, but as an immortal, he can no longer marry and start a family. In the Millennial Kingdom, she becomes Leonard's counsellor and one of Billy's foster parents. Boris's wife and Billy's foster mother.",
     appearances: ["The Quest for Immortality", "Disturbing Dreams", "The Beast's Mark", "Emunah Short Stories: Emunah", "Billy The Lion Boy", "Dragon Unbound"]
   },
   {
@@ -77,13 +87,18 @@ export const characters: Character[] = [
   },
   {
     name: "Beast",
-    description: "An exceptionally intelligent man. The Antichrist. Owner of Beast Corp.",
-    appearances: ["The Quest for Immortality", "The Beast's Mark", "Emunah Short Stories: Liam's Dark Secrets"]
+    description: "An exceptionally intelligent man. The Antichrist. Owner of Beast Corp. He reigned during the 7 year Tribulation and murdered many for their faith in Jesus. He was thrown into the Lake of Fire after those 7 years were up.",
+    appearances: ["The Quest for Immortality", "The Beast's Mark", "Emunah Short Stories: Liam's Dark Secrets", "Billy & Bluma: Double Trouble"]
   },
   {
     name: "Ben",
     description: "An ambitious man who was the college star quarterback in his youth. Penelope's lover. Joined Beast Corp's social justice arm as a volunteer through the Church of Thyatira. He is Abigail's crush and first meets Penelope through Abigail. A victim of Beast Corp's Immortality project, Ben's clone lived on thinking he was the real Ben. The clone is a soulless, superhuman soldier who delighted in killing for Beast. Clone's super powers include fire blasts from hands, ability to grow to gigantic proportions, super strength and impenetrable skin.",
     appearances: ["The Quest for Immortality", "Disturbing Dreams", "The Beast's Mark", "Emunah Short Stories: Abigail", "Emunah Short Stories: Emunah", "Emunah Short Stories: Mei"]
+  },
+  {
+    name: "Bernie",
+    description: "A grizzly bear and proud cave owner.",
+    appearances: ["Billy & Bluma: Double Trouble"]
   },
   {
     name: "Betty",
@@ -92,13 +107,18 @@ export const characters: Character[] = [
   },
   {
     name: "Billy",
-    description: "A boy. The youngest survivor in Pastor John's camp, until Bluma's birth. The oldest human conceived and born during the Tribulation. His parents died when Beast's cronies invaded and destroyed their camp. Billy was the only survivor. Rescued by Mei and Boris. Mentored by John. As agile as a little monkey. Mei raises him as her own child. He bonds with Leonard Lion and wreaks havoc with his childhood friend Bluma. Little Billy receives divine strength in an adventure with Bluma. In the final story in the Emunah Universe, grown-up Billy and Bluma fall in love and start a family which becomes a new nation.",
+    description: "A boy. The youngest survivor in Pastor John's camp, until Bluma's birth. The oldest human conceived and born during the Tribulation. His parents died when Beast's cronies invaded and destroyed their camp. Billy was the only survivor. Rescued by Mei and Boris. Mentored by John. As agile as a little monkey. Mei raises him as her own child. He bonds with Leonard Lion and wreaks havoc with his childhood friend Bluma. Little Billy receives divine strength in an adventure with Bluma. In the final story in the Emunah Universe, grown-up Billy and Bluma fall in love and start a family which becomes a new nation. Omnilingual, able to speak all animal languages. Blessed with super strength. Eventually becomes a teacher at St. Lydia's Academy.",
     appearances: ["The Quest for Immortality", "Emunah Short Stories: Mei", "Emunah Short Stories: Mary's Flight", "Billy The Lion Boy", "Billy & Bluma: Double Trouble", "Secret Hero & His Flying Lion", "Dragon Unbound"]
   },
   {
     name: "Boris",
-    description: "A tall, strong man from the North. A professional test pilot who flies any aircraft, from fighter jets to rescue planes. He served the King of the North and led a team of pilots before his defection in order to avoid killing innocents. He meets Mei and together they rescue Billy. He is one of Billy's human caregivers.",
+    description: "A tall, strong man from the North. A professional test pilot who flies any aircraft, from fighter jets to rescue planes. He served the King of the North and led a team of pilots before his defection in order to avoid killing innocents. He meets Mei and together they rescue Billy. A rescue pilot who found Billy when he was orphaned as a baby. One of Billy's foster parents. Marries Ava.",
     appearances: ["The Quest for Immortality", "Emunah Short Stories: Mei", "Billy The Lion Boy", "Dragon Unbound"]
+  },
+  {
+    name: "Cha Cha",
+    description: "A monkey. The leader of the monkeys where the lions live. He is the monkey chief and always up to mischief. He shot Leonard with a gun.",
+    appearances: ["Billy The Lion Boy", "Billy & Bluma: Double Trouble", "Secret Hero & His Flying Lion"]
   },
   {
     name: "Chang",
@@ -109,6 +129,11 @@ export const characters: Character[] = [
     name: "Charles",
     description: "A middle aged man with a gap tooth smile. When he was single, he was a social media influencer who traveled around the world. Later he fell in love and got married and became a family man who earns a living from his bookstore cafe business. He became a Christian after the Rapture of the Church.",
     appearances: ["The Quest for Immortality", "Emunah Short Stories: Oliver"]
+  },
+  {
+    name: "Charlotte",
+    description: "A mortal girl/woman. Eldest daughter of Elijah and Anne.",
+    appearances: ["Dragon Unbound"]
   },
   {
     name: "Chloe",
@@ -131,9 +156,34 @@ export const characters: Character[] = [
     appearances: ["Emunah Short Stories: Oliver", "Emunah Short Stories: Lydia's 12 Christmases"]
   },
   {
+    name: "Dick",
+    description: "A lion cub. One of Leonard & Lina's triplets.",
+    appearances: ["Billy The Lion Boy"]
+  },
+  {
+    name: "Dora",
+    description: "A mortal woman. Theodore's wife.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Dorothy",
+    description: "A sparrow. She likes pretty blue flowers.",
+    appearances: ["Billy & Bluma: Double Trouble"]
+  },
+  {
     name: "Eli",
     description: "A young man. A Christian who was born in Jerusalem. A gym rat who wants to earn a side income physical fitness coach. Befriends John and trains him for free, in return for permission to use his before and after pictures to gain paying clients.",
     appearances: ["Emunah Short Stories: John"]
+  },
+  {
+    name: "Elijah",
+    description: "A human boy/man. The biggest boy in Billy's class. Billy's former classmate and best friend. Marries Anne.",
+    appearances: ["Secret Hero & His Flying Lion", "Dragon Unbound"]
+  },
+  {
+    name: "Ella",
+    description: "An immortal woman. Billy's real mother. She was martyred during the Tribulation and resurrected as an immortal priest.",
+    appearances: ["Billy The Lion Boy", "Dragon Unbound"]
   },
   {
     name: "Emma",
@@ -147,8 +197,8 @@ export const characters: Character[] = [
   },
   {
     name: "Ethan",
-    description: "A former military man. Served in the army with Ben. He was raised in a farm before joining the army. Ethan helped Leo build The Ark. His friendship with Ben comes to a tragic end at the hands of Ben who accepts Beast's gift of immortality.",
-    appearances: ["The Quest for Immortality", "The Beast's Mark", "Emunah Short Stories: Liam's Dark Secrets"]
+    description: "A former military man. Served in the army with Ben. He was raised in a farm before joining the army. Ethan helped Leo build The Ark. His friendship with Ben comes to a tragic end at the hands of Ben who accepts Beast's gift of immortality. An immortal priest. Was martyred during the Tribulation and returned as a resurrected saint. He is one of King Jayden's best friends from their time before the Tribulation began. Adopts Joseph after Leonard accidentally killed Joseph's father.",
+    appearances: ["The Quest for Immortality", "The Beast's Mark", "Emunah Short Stories: Liam's Dark Secrets", "Secret Hero & His Flying Lion"]
   },
   {
     name: "Gabriel",
@@ -156,9 +206,14 @@ export const characters: Character[] = [
     appearances: ["Emunah Short Stories: Mei"]
   },
   {
+    name: "Jake",
+    description: "An immortal man. Billy's real father who was martyred during the Tribulation and resurrected as an immortal priest.",
+    appearances: ["Billy The Lion Boy", "Dragon Unbound"]
+  },
+  {
     name: "Jayden",
-    description: "A handsome young man with red hair and brilliant blue eyes. Altruistic tech startup billionaire, highly influential college buddy of Oliver's. A ladies man from the West. He is Emunah's best friend and crush. Jayden met Emunah when he rescued her from drowning as a freshman in college. Upon graduation, he started his own technology business and became a billionaire tycoon. He is a member of The Church of Laodicea. Jayden, Ethan, Liam and Oliver are best of friends. Jayden falls in love with Ava and the couple is the Romeo and Juliet of the Emunah Chronicles Universe. After his death, he returns in a resurrected, immortal body as a king who reigns with the King of Kings. He grows fond of Billy Lionheart and becomes a father figure to Billy and later, to Billy's descendants.",
-    appearances: ["The Quest for Immortality", "Emunah Short Stories: Oliver", "Emunah Short Stories: Emunah", "Disturbing Dreams", "The Beast's Mark", "Billy The Lion Boy", "Secret Hero & His Flying Lion", "Dragon Unbound"]
+    description: "A handsome young man with red hair and brilliant blue eyes. Altruistic tech startup billionaire, highly influential college buddy of Oliver's. A ladies man from the West. He is Emunah's best friend and crush. Jayden met Emunah when he rescued her from drowning as a freshman in college. Upon graduation, he started his own technology business and became a billionaire tycoon. He is a member of The Church of Laodicea. Jayden, Ethan, Liam and Oliver are best of friends. Jayden falls in love with Ava and the couple is the Romeo and Juliet of the Emunah Chronicles Universe. After his death, he returns in a resurrected, immortal body as a king who reigns with the King of Kings. When he was a mortal, he was going to marry Ava, but he was killed while saving Ava's life. He returned as an immortal king with superpowers. He grows fond of Billy Lionheart and becomes a father figure to Billy and later, to Billy's descendants.",
+    appearances: ["The Quest for Immortality", "Emunah Short Stories: Oliver", "Emunah Short Stories: Emunah", "Disturbing Dreams", "The Beast's Mark", "Billy The Lion Boy", "Billy & Bluma: Double Trouble", "Secret Hero & His Flying Lion", "Dragon Unbound"]
   },
   {
     name: "Jezebel",
@@ -172,17 +227,52 @@ export const characters: Character[] = [
   },
   {
     name: "Joseph",
-    description: "Little boy whose daddy was accidentally killed by a lion, Leonard. Ethan adopts him after the incident and raises him to be a mortal priest. He confronts Leonard and befriends Billy when Billy and his friends are on a school trip in the Celestial City.",
+    description: "Little boy whose daddy was accidentally killed by a lion, Leonard. Ethan adopts him after the incident and raises him to be a mortal priest. He confronts Leonard and befriends Billy when Billy and his friends are on a school trip in the Celestial City. Orphaned when his dad stuck his head into Leonard's mouth and the lion sneezed. Has a grudge against Leonard.",
     appearances: ["The Quest for Immortality", "Secret Hero & His Flying Lion"]
   },
   {
+    name: "Junta",
+    description: "A human young man. Secret cult leader. Former hunting buddy of Owen who refused to join his schemes.",
+    appearances: ["Billy & Bluma: Double Trouble"]
+  },
+  {
+    name: "Kai",
+    description: "A mortal boy. Born to Billy and Bluma towards the end of the thousand years.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Kathy",
+    description: "A cat. Tucker found her when she was a kitten and she became Tucker's pet cat.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Kit",
+    description: "A lion cub. One of Leonard & Lina's triplets.",
+    appearances: ["Billy The Lion Boy"]
+  },
+  {
+    name: "Koen",
+    description: "A human boy Billy befriends on the way to Celestial City.",
+    appearances: ["Billy The Lion Boy"]
+  },
+  {
+    name: "Leah",
+    description: "A young Jewish woman who is a devout follower of Judaism. Barry's tenant.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Leia",
+    description: "A mortal girl/woman. Born to Billy and Bluma.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
     name: "Leo",
-    description: "A man from the West with an IQ of 270 but below average EQ. The main protagonist in The Quest for Immortality. He builds an underground city of bunkers which is known as Leo's Ark. As Emunah's room mate, Leo beats Emunah's rogue sentient A.I. Leo switches from atheism to Christianity and uses his technology to protect fellow new Christians post-rapture to try to help as many as possible survive the seven year tribulation. He marries Mei in the Millennial Kingdom and helps raise Billy as their foster son until the boy runs away. He and Mei raise their own nation during the thousand utopian years.",
+    description: "A man from the West with an IQ of 270 but below average EQ. The main protagonist in The Quest for Immortality. He builds an underground city of bunkers which is known as Leo's Ark. As Emunah's room mate, Leo beats Emunah's rogue sentient A.I. Leo switches from atheism to Christianity and uses his technology to protect fellow new Christians post-rapture to try to help as many as possible survive the seven year tribulation. He marries Mei in the Millennial Kingdom and helps raise Billy as their foster son until the boy runs away. He and Mei raise their own nation during the thousand utopian years. Scientist. Inventor. Mei's husband and one of Billy's foster parents.",
     appearances: ["The Quest for Immortality", "Disturbing Dreams", "The Beast's Mark", "Billy The Lion Boy", "Dragon Unbound"]
   },
   {
     name: "Leonard",
-    description: "The lion who accidentally killed Joseph's father. Leo and Mei volunteered to keep an eye on the depressed lion after that. Leonard adopts his charge Billy. Leonard tries to find a mate for his human cub (Billy). Leonard is given flying gloves by Jayden and is Billy's crime-busting partner.",
+    description: "The lion who accidentally killed Joseph's father. Leo and Mei volunteered to keep an eye on the depressed lion after that. Leonard adopts his charge Billy. Leonard tries to find a mate for his human cub (Billy). Leonard is given flying gloves by Jayden and is Billy's crime-busting partner. A Lion. Billy's nanny, guardian and eventually, Papa Lion. He owns a translator glove which allows him to speak all languages. Leonard has trained himself to adopt human mannerisms whenever human etiquette is a necessity. Billy's lifelong guardian. Co-founded Billy's Secret Recipe fodder company with Ralph.",
     appearances: ["The Quest for Immortality", "Billy The Lion Boy", "Billy & Bluma: Double Trouble", "Secret Hero & His Flying Lion", "Dragon Unbound"]
   },
   {
@@ -197,13 +287,38 @@ export const characters: Character[] = [
   },
   {
     name: "Lydia",
-    description: "A headstrong woman, lost to the occult under the thrall of a cursed box until her father broke the curse. Left behind, Leo rescues her to fulfil a vow he made to Lydia's father. She is Ava's room mate in Leo's Ark. Oliver's sister. Lydia's father and Oliver helped Leo build The Ark to secure a place in the underground city for her to survive the Seven Year Tribulation. She sacrifices her life to save her friends, but returns as a resurrected immortal to reign with the King of Kings during the Millennial Kingdom.",
-    appearances: ["The Quest for Immortality", "Emunah Short Stories: Oliver", "Emunah Short Stories: Emunah", "Emunah Short Stories: Lydia's 12 Christmases", "Billy & Bluma: Double Trouble"]
+    description: "A headstrong woman, lost to the occult under the thrall of a cursed box until her father broke the curse. Left behind, Leo rescues her to fulfil a vow he made to Lydia's father. She is Ava's room mate in Leo's Ark. Oliver's sister. Lydia's father and Oliver helped Leo build The Ark to secure a place in the underground city for her to survive the Seven Year Tribulation. She sacrifices her life to save her friends, but returns as a resurrected immortal to reign with the King of Kings during the Millennial Kingdom. An immortal. Ruler of Lydia's Kingdom.",
+    appearances: ["The Quest for Immortality", "Emunah Short Stories: Oliver", "Emunah Short Stories: Emunah", "Emunah Short Stories: Lydia's 12 Christmases", "Billy The Lion Boy", "Billy & Bluma: Double Trouble"]
   },
   {
     name: "Mei",
-    description: "A brilliant woman with an IQ of 260. Leo's love interest. Born in the East into a communist family, Mei won a scholarship in a prestigious school in the west. She meets Leo as a fellow geek in school, gets to know Emunah and then joins Beast Corp's Immortality division as a scientist. When she finds out truth about Beast Corp, she flees to the East. Converted to Christianity after the Rapture, she is persecuted and thrown out of home, where she joins the underground church. A visiting pastor who is one of the 144,000 Jewish Witnesses shelters the group and brings them to safety to wait out the rest of the 7 year tribulation. She enters the Millennial Kingdom as a mortal and marries Leo, where there foster Billy briefly before he runs away.",
-    appearances: ["The Quest for Immortality", "Emunah Short Stories: Emunah", "Emunah Short Stories: Mei", "Emunah Short Stories: Mary's Flight", "Dragon Unbound"]
+    description: "A brilliant woman with an IQ of 260. Leo's love interest. Born in the East into a communist family, Mei won a scholarship in a prestigious school in the west. She meets Leo as a fellow geek in school, gets to know Emunah and then joins Beast Corp's Immortality division as a scientist. When she finds out truth about Beast Corp, she flees to the East. Converted to Christianity after the Rapture, she is persecuted and thrown out of home, where she joins the underground church. A visiting pastor who is one of the 144,000 Jewish Witnesses shelters the group and brings them to safety to wait out the rest of the 7 year tribulation. She enters the Millennial Kingdom as a mortal and marries Leo, where there foster Billy briefly before he runs away. A human woman. One of Billy's foster parents in Jayden's kingdom. She is very petite. She doted on Billy. When Billy was six, she secretly taught him how to fly planes. She was trained as a fighter pilot and used to go on rescue missions before the Millennial kingdom began. A rescue pilot who found baby Billy, the only survivor of a massacre during the Tribulation.",
+    appearances: ["The Quest for Immortality", "Emunah Short Stories: Emunah", "Emunah Short Stories: Mei", "Emunah Short Stories: Mary's Flight", "Billy & Bluma: Double Trouble", "Dragon Unbound"]
+  },
+  {
+    name: "Mia",
+    description: "A human girl. Spencer's sister and fellow prisoner.",
+    appearances: ["Billy & Bluma: Double Trouble"]
+  },
+  {
+    name: "Mike",
+    description: "A lion. Lion cub who grows into a young lion. Billy's lion brother. Mitch's twin. Biological son of Leonard and Lina and their second eldest. (Billy, their adoptive human cub is the eldest.) Billy's closest lion bro.",
+    appearances: ["Billy The Lion Boy", "Dragon Unbound"]
+  },
+  {
+    name: "Miss Steel",
+    description: "A human woman. Billy's form teacher.",
+    appearances: ["Secret Hero & His Flying Lion"]
+  },
+  {
+    name: "Mitch",
+    description: "A lion. Lion cub who grows into a young lion. Billy's lion brother. Mike's twin. Leonard's son. Owes Cha Cha an unconditional favour.",
+    appearances: ["Billy The Lion Boy", "Secret Hero & His Flying Lion"]
+  },
+  {
+    name: "Moe Horizon",
+    description: "A mortal man. Owner of Moe Horizon Limited, a supplier of vehicle parts.",
+    appearances: ["Dragon Unbound"]
   },
   {
     name: "Oliver",
@@ -211,14 +326,54 @@ export const characters: Character[] = [
     appearances: ["The Quest for Immortality", "Disturbing Dreams", "Emunah Short Stories: Oliver", "Emunah Short Stories: Lydia's 12 Christmases"]
   },
   {
+    name: "Owen",
+    description: "A human man. Former hunting buddy of Junta who refused to join his schemes. As a result, Junta had him imprisoned. Owen wears an eye patch because he lost an eye when he tried to escape.",
+    appearances: ["Billy & Bluma: Double Trouble"]
+  },
+  {
     name: "Penelope",
     description: "Penelope meets Ben (Abigail's crush). Ben and Penelope fall madly in love with each other and use Abigail to get closer to each other. Their love story comes to a tragic end. Penelope is also a close friend of Emunah's.",
     appearances: ["The Quest for Immortality", "Emunah Short Stories: Abigail", "Emunah Short Stories: Emunah", "Disturbing Dreams"]
   },
   {
+    name: "Pete",
+    description: "A lion cub. One of Leonard & Lina's triplets.",
+    appearances: ["Billy The Lion Boy"]
+  },
+  {
+    name: "Phillip",
+    description: "A mortal man. Father of four. Abuses his wife.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Professor Abel",
+    description: "A human man. The headmaster of Lydia's Academy. Has a grudge against Billy and Bluma because before the semester began, they broke curfew and scaled the school gates by bouncing off his belly like a trampoline. He also lost his toupee to Cha Cha, while chasing the children. A mortal man. Headmaster of St Lydia's Academy.",
+    appearances: ["Billy & Bluma: Double Trouble", "Secret Hero & His Flying Lion", "Dragon Unbound"]
+  },
+  {
+    name: "Ralph",
+    description: "A human man. Leonard's business partner. He co-owns Billy's Secret Recipe with the lion.",
+    appearances: ["Billy The Lion Boy", "Billy & Bluma: Double Trouble"]
+  },
+  {
     name: "Samson",
-    description: "A man with superhuman strength. The Samson from the Bible.",
+    description: "A man with superhuman strength. The Samson from the Bible. An immortal. School teacher, Gym coach and discipline master in St. Lydia's Academy. Looks and acts like a very strong mortal man. Everyone assumes that he is just an ordinary human man. An immortal prince. A resurrected saint from biblical times. Billy's former gym teacher and mentor.",
     appearances: ["Emunah Short Stories: John", "Secret Hero & His Flying Lion", "Dragon Unbound"]
+  },
+  {
+    name: "Seraphina",
+    description: "A mortal woman. Follower of Dragon, Kai's school teacher.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Sheila",
+    description: "A mortal woman. A fresh graduate and new teacher in St. Lydia's Academy when the thousand years begin. She is the teacher who covers Billy's responsibilities on the days he is away.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Spencer",
+    description: "A human boy. Goes by Spence. A fellow kid prisoner of Junta who tells Bluma what happened.",
+    appearances: ["Billy & Bluma: Double Trouble"]
   },
   {
     name: "Stella",
@@ -226,14 +381,59 @@ export const characters: Character[] = [
     appearances: ["The Quest for Immortality", "Emunah Short Stories: Abigail", "Emunah Short Stories: Emunah", "Disturbing Dreams", "Emunah Short Stories: Mei"]
   },
   {
+    name: "Stephanie",
+    description: "A human woman. Works at Billy's Secret Recipe as Leonard's secretary.",
+    appearances: ["Billy & Bluma: Double Trouble"]
+  },
+  {
     name: "Sue",
     description: "A trusting Christian woman. Emunah's classmate. A member of the Church of Laodicea. Liam's faithful wife. Liam's affair with Emma broke Sue.",
     appearances: ["The Quest for Immortality", "Emunah Short Stories: Emunah", "Emunah Short Stories: Liam's Dark Secrets"]
   },
   {
+    name: "Sylvia",
+    description: "A lion cub. Grown up Mitch's daughter.",
+    appearances: ["Billy The Lion Boy"]
+  },
+  {
     name: "The Dragon",
-    description: "Satan. Dragon. The devil. He is locked up after the 7 Year Tribulation for 1000 years. When he is released, he deceives the nations and leads a rebellion against the King of Kings.",
+    description: "Satan. Dragon. The devil. He is locked up after the 7 Year Tribulation for 1000 years. When he is released, he deceives the nations and leads a rebellion against the King of Kings. A fallen angel. Led a rebellion against God in Heaven, and is determined to destroy man whom God loves, in order to hurt God.",
     appearances: ["The Quest for Immortality", "Emunah Short Stories: Mary's Flight", "Dragon Unbound"]
+  },
+  {
+    name: "Theodore",
+    description: "A mortal man. Billy's great, great, great, great, great, great grandson, who was renown for his wisdom and kindness. He became Billy's Prime Minister. Marries Dora.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Tike",
+    description: "A lion cub. Grown up Mike's son.",
+    appearances: ["Billy The Lion Boy"]
+  },
+  {
+    name: "Tina",
+    description: "A lion cub. Grown up Mitch's daughter.",
+    appearances: ["Billy The Lion Boy"]
+  },
+  {
+    name: "Toby",
+    description: "A dog. Mia's pet golden retriever who views himself as her personal bodyguard.",
+    appearances: ["Secret Hero & His Flying Lion"]
+  },
+  {
+    name: "Trevor",
+    description: "A human boy. The school bully and one of the bigger boys in St Lydia's Academy.",
+    appearances: ["Secret Hero & His Flying Lion"]
+  },
+  {
+    name: "Tucker",
+    description: "A mortal boy. Billy's student in St. Lydia's Academy during his first year there as a teacher. Owns Kathy the cat.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Teacher Mabel",
+    description: "A human woman. A teacher in St Lydia's Academy.",
+    appearances: ["Secret Hero & His Flying Lion"]
   },
   {
     name: "Bluma",
@@ -242,8 +442,8 @@ export const characters: Character[] = [
   },
   {
     name: "Mary",
-    description: "A young Jewish woman. Born in the West where her family lived for many generations. Rescued from a lynching mob by Samantha. She makes Aliyah to Israel with Barry's help. Barry and Mary fall in love as they lean on each other to survive when nature turns against humanity during the Tribulation. They flee persecution to a city built in rock.",
-    appearances: ["Emunah Short Stories: Mary's Flight", "Dragon Unbound"]
+    description: "A young Jewish woman. Born in the West where her family lived for many generations. Rescued from a lynching mob by Samantha. She makes Aliyah to Israel with Barry's help. Barry and Mary fall in love as they lean on each other to survive when nature turns against humanity during the Tribulation. They flee persecution to a city built in rock. A human woman. Bluma's mother.",
+    appearances: ["Emunah Short Stories: Mary's Flight", "Billy & Bluma: Double Trouble", "Dragon Unbound"]
   },
   {
     name: "Barry",
@@ -252,13 +452,18 @@ export const characters: Character[] = [
   },
   {
     name: "Lina",
-    description: "A lioness who becomes Leonard's mate. Together they adopt Billy as their human cub and raise him with their lion cubs.",
-    appearances: ["Billy The Lion Boy", "Dragon Unbound"]
+    description: "A lioness who becomes Leonard's mate. Together they adopt Billy as their human cub and raise him with their lion cubs. Leonard's mate (wife), which is animal language for wife. Billy's Momma lion.",
+    appearances: ["Billy The Lion Boy", "Secret Hero & His Flying Lion", "Dragon Unbound"]
   },
   {
     name: "Two Witnesses",
     description: "2 men. Sent by God to preach the gospel during the 7 year Tribulation. They are invulnerable, breathe fire to kill their attackers, imbued with divine power over the weather and to perform miracles.",
     appearances: ["Emunah Short Stories: Mei", "Emunah Short Stories: Liam's Dark Secrets", "Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Waru",
+    description: "A human man. Koen's father and village chief.",
+    appearances: ["Billy The Lion Boy"]
   },
   {
     name: "Sally",
@@ -269,6 +474,21 @@ export const characters: Character[] = [
     name: "Fred",
     description: "Middle aged man. Friend of Oliver and Lydia's parents.",
     appearances: ["Emunah Short Stories: Lydia's 12 Christmases"]
+  },
+  {
+    name: "Gabriel",
+    description: "A Jewish man from the tribe of Judah. One of the 144,000 Jewish witnesses sealed by God.",
+    appearances: ["Emunah Short Stories: Mei"]
+  },
+  {
+    name: "Greta",
+    description: "A mortal woman. Joey's wife. She is a year younger than Joey. They married each other in their forties. She took over Bluma's responsibilities in B's Kingdom when Joey took over Billy's role, to allow Billy and Bluma to take much needed vacations. That arrangement stayed in force until Billy handed the reins to Theodore and Dora.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Henrieta Hippo",
+    description: "A hippopotamus. Leonard's friend.",
+    appearances: ["Billy The Lion Boy"]
   },
   {
     name: "Teacher Elisa",
@@ -282,8 +502,28 @@ export const characters: Character[] = [
   },
   {
     name: "Joey",
-    description: "A teenage boy. Lydia's friend from Sunday School. Their families attend the same church. Her crush until her sixteenth birthday.",
-    appearances: ["Emunah Short Stories: Lydia's 12 Christmases"]
+    description: "A teenage boy. Lydia's friend from Sunday School. Their families attend the same church. Her crush until her sixteenth birthday. Also a mortal boy/man. Eldest child of Billy and Bluma. Marries Greta.",
+    appearances: ["Emunah Short Stories: Lydia's 12 Christmases", "Dragon Unbound"]
+  },
+  {
+    name: "Jill",
+    description: "A mortal girl. Billy's student just before he was fired from St. Lydia's Academy.",
+    appearances: ["Dragon Unbound"]
+  },
+  {
+    name: "Jim",
+    description: "A young Jewish Christian man. Barry's tenant.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Jose",
+    description: "A human boy. A fellow child prisoner of Junta who tried to escape but got caught and traumatised for it.",
+    appearances: ["Billy & Bluma: Double Trouble"]
+  },
+  {
+    name: "Jeremiah",
+    description: "A man in his thirties. Also known as Jerry. A scout for the community of outcasts which Mei, Barry and Mary belong to. Thomas's best friend. The pair is known as Tom and Jerry.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
   },
   {
     name: "Troy",
@@ -301,19 +541,14 @@ export const characters: Character[] = [
     appearances: ["Emunah Short Stories: Mary's Flight"]
   },
   {
-    name: "Jim",
-    description: "A young Jewish Christian man. Barry's tenant.",
-    appearances: ["Emunah Short Stories: Mary's Flight"]
-  },
-  {
     name: "Leah",
     description: "A young Jewish woman who is a devout follower of Judaism. Barry's tenant.",
     appearances: ["Emunah Short Stories: Mary's Flight"]
   },
   {
     name: "Mathilda",
-    description: "A middle-aged woman. A born again Christian. The midwife for the underground community of new believers in Israel.",
-    appearances: ["Emunah Short Stories: Mary's Flight"]
+    description: "A middle-aged woman. A born again Christian. The midwife for the underground community of new believers in Israel. An immortal. During the 7 Year Tribulation, Mathilda helped take care of Billy and Bluma. She helped Bluma's mother deliver baby Bluma. She also took care of Billy when he was a toddler, allowing him to be her little helper. She was killed for her faith in Christ. After the 7 Year Tribulation, she returned, resurrected as an immortal, to reign with the King of Kings.",
+    appearances: ["Emunah Short Stories: Mary's Flight", "Billy & Bluma: Double Trouble"]
   },
   {
     name: "Thomas",
@@ -321,14 +556,14 @@ export const characters: Character[] = [
     appearances: ["Emunah Short Stories: Mary's Flight"]
   },
   {
-    name: "Jeremiah",
-    description: "A man in his thirties. Also known as Jerry. A scout for the community of outcasts which Mei, Barry and Mary belong to. Thomas's best friend. The pair is known as Tom and Jerry.",
-    appearances: ["Emunah Short Stories: Mary's Flight"]
-  },
-  {
     name: "Buck",
     description: "A strong man in his late thirties. A born again Christian in the community of new converts that follows the Jewish evangelists John and Gabriel.",
     appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Maximus",
+    description: "A mortal boy/man. Friend of Joey and Charlotte.",
+    appearances: ["Dragon Unbound"]
   }
 ];
 
