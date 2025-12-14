@@ -18,13 +18,13 @@ export function BookCard({ book, showOrder = false }: BookCardProps) {
               loop
               muted
               playsInline
-              className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
             />
           ) : (
             <img
               src={book.coverUrl}
               alt={book.title}
-              className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
             />
           )}
           {showOrder && (
