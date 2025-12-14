@@ -51,7 +51,7 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
                 src={character.image}
                 alt={character.name}
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority
               />
             </div>
