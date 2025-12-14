@@ -164,10 +164,7 @@ interface CharacterCardProps {
 function CharacterCard({ character, isExpanded, onToggle }: CharacterCardProps) {
   return (
     <div className="bg-card border border-gold/10 rounded-lg overflow-hidden">
-      <button
-        onClick={onToggle}
-        className="w-full flex items-center justify-between p-4 text-left hover:bg-card/80 transition-colors"
-      >
+      <div className="flex items-center p-4">
         <div className="flex items-center gap-4 flex-grow">
           {character.image && (
             <div className="relative w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
@@ -181,9 +178,12 @@ function CharacterCard({ character, isExpanded, onToggle }: CharacterCardProps) 
             </div>
           )}
           <div className="flex-grow">
-            <h3 className="font-cinzel text-lg font-semibold text-[#e8e4dc]">
+            <Link
+              href={`/characters/${character.id}`}
+              className="font-cinzel text-lg font-semibold text-[#e8e4dc] hover:text-gold transition-colors"
+            >
               {character.name}
-            </h3>
+            </Link>
             {!isExpanded && (
               <p className="font-crimson text-sm text-muted-foreground line-clamp-1 mt-1">
                 {character.description}
@@ -191,12 +191,17 @@ function CharacterCard({ character, isExpanded, onToggle }: CharacterCardProps) 
             )}
           </div>
         </div>
-        {isExpanded ? (
-          <ChevronUp className="w-5 h-5 text-gold flex-shrink-0 ml-4" />
-        ) : (
-          <ChevronDown className="w-5 h-5 text-muted-foreground flex-shrink-0 ml-4" />
-        )}
-      </button>
+        <button
+          onClick={onToggle}
+          className="flex-shrink-0 ml-4 p-2 hover:bg-card/80 transition-colors rounded"
+        >
+          {isExpanded ? (
+            <ChevronUp className="w-5 h-5 text-gold" />
+          ) : (
+            <ChevronDown className="w-5 h-5 text-muted-foreground" />
+          )}
+        </button>
+      </div>
 
       {isExpanded && (
         <div className="px-4 pb-4 border-t border-gold/10 pt-4">
