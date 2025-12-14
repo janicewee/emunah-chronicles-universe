@@ -254,6 +254,86 @@ export const characters: Character[] = [
     name: "Lina",
     description: "A lioness who becomes Leonard's mate. Together they adopt Billy as their human cub and raise him with their lion cubs.",
     appearances: ["Billy The Lion Boy", "Dragon Unbound"]
+  },
+  {
+    name: "Two Witnesses",
+    description: "2 men. Sent by God to preach the gospel during the 7 year Tribulation. They are invulnerable, breathe fire to kill their attackers, imbued with divine power over the weather and to perform miracles.",
+    appearances: ["Emunah Short Stories: Mei", "Emunah Short Stories: Liam's Dark Secrets", "Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Sally",
+    description: "Middle aged woman. Lydia's mother. Denver's wife.",
+    appearances: ["Emunah Short Stories: Lydia's 12 Christmases"]
+  },
+  {
+    name: "Fred",
+    description: "Middle aged man. Friend of Oliver and Lydia's parents.",
+    appearances: ["Emunah Short Stories: Lydia's 12 Christmases"]
+  },
+  {
+    name: "Teacher Elisa",
+    description: "A young woman. Lydia's Sunday school teacher who chaperoned the carolling Troup.",
+    appearances: ["Emunah Short Stories: Lydia's 12 Christmases"]
+  },
+  {
+    name: "Bryan",
+    description: "A young boy. Aaron's Sunday school classmate and confetti nemesis.",
+    appearances: ["Emunah Short Stories: Lydia's 12 Christmases"]
+  },
+  {
+    name: "Joey",
+    description: "A teenage boy. Lydia's friend from Sunday School. Their families attend the same church. Her crush until her sixteenth birthday.",
+    appearances: ["Emunah Short Stories: Lydia's 12 Christmases"]
+  },
+  {
+    name: "Troy",
+    description: "A teenage boy from Lydia's school. Her first boyfriend.",
+    appearances: ["Emunah Short Stories: Lydia's 12 Christmases"]
+  },
+  {
+    name: "Mary",
+    description: "A Jewish woman. Born in the West where her family lived for many generations.",
+    appearances: ["Emunah Short Stories: Mary's Flight", "Dragon Unbound"]
+  },
+  {
+    name: "Matt",
+    description: "A boy. Son of Mary's neighbour.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Samantha",
+    description: "A young English woman. Also known to her friends as Sam. She is six feet two inches tall with an athletic build. She is a Bible believing born again Christian.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Jim",
+    description: "A young Jewish Christian man. Barry's tenant.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Leah",
+    description: "A young Jewish woman who is a devout follower of Judaism. Barry's tenant.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Mathilda",
+    description: "A middle-aged woman. A born again Christian. The midwife for the underground community of new believers in Israel.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Thomas",
+    description: "A man in his thirties. Also known as Tom by his friends. A member of the underground church in Israel and a scout for that community of outcasts.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Jeremiah",
+    description: "A man in his thirties. Also known as Jerry. A scout for the community of outcasts which Mei, Barry and Mary belong to. Thomas's best friend. The pair is known as Tom and Jerry.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
+  },
+  {
+    name: "Buck",
+    description: "A strong man in his late thirties. A born again Christian in the community of new converts that follows the Jewish evangelists John and Gabriel.",
+    appearances: ["Emunah Short Stories: Mary's Flight"]
   }
 ];
 
