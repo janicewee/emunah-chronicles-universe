@@ -242,8 +242,8 @@ export const characters: Character[] = [
   },
   {
     name: "Mary",
-    description: "A young Jewish woman rescued from a lynching mob by Samantha. She makes Aliyah to Israel with Barry's help. Barry and Mary fall in love as they lean on each other to survive when nature turns against humanity during the Tribulation. They flee persecution to a city built in rock.",
-    appearances: ["Emunah Short Stories: Mary's Flight"]
+    description: "A young Jewish woman. Born in the West where her family lived for many generations. Rescued from a lynching mob by Samantha. She makes Aliyah to Israel with Barry's help. Barry and Mary fall in love as they lean on each other to survive when nature turns against humanity during the Tribulation. They flee persecution to a city built in rock.",
+    appearances: ["Emunah Short Stories: Mary's Flight", "Dragon Unbound"]
   },
   {
     name: "Barry",
@@ -289,11 +289,6 @@ export const characters: Character[] = [
     name: "Troy",
     description: "A teenage boy from Lydia's school. Her first boyfriend.",
     appearances: ["Emunah Short Stories: Lydia's 12 Christmases"]
-  },
-  {
-    name: "Mary",
-    description: "A Jewish woman. Born in the West where her family lived for many generations.",
-    appearances: ["Emunah Short Stories: Mary's Flight", "Dragon Unbound"]
   },
   {
     name: "Matt",
