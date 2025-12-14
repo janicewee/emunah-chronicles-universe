@@ -470,3 +470,7 @@ export function getBookById(id: string): Book | undefined {
 export function getBooksByReadingOrder(): Book[] {
   return [...books].sort((a, b) => a.readingOrder - b.readingOrder);
 }
+
+export function getBookIdByTitle(title: string): string | undefined {
+  return books.find((book) => book.title === title)?.id;
+}
