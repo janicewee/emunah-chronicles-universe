@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { characters, getCharactersByLetter, searchCharacters } from "@/lib/characters";
 import { books } from "@/lib/books";
 import { Search, ChevronDown, ChevronUp, BookOpen } from "lucide-react";
@@ -154,6 +155,7 @@ interface CharacterCardProps {
     name: string;
     description: string;
     appearances: string[];
+    image?: string;
   };
   isExpanded: boolean;
   onToggle: () => void;
@@ -166,15 +168,28 @@ function CharacterCard({ character, isExpanded, onToggle }: CharacterCardProps) 
         onClick={onToggle}
         className="w-full flex items-center justify-between p-4 text-left hover:bg-card/80 transition-colors"
       >
-        <div className="flex-grow">
-          <h3 className="font-cinzel text-lg font-semibold text-[#e8e4dc]">
-            {character.name}
-          </h3>
-          {!isExpanded && (
-            <p className="font-crimson text-sm text-muted-foreground line-clamp-1 mt-1">
-              {character.description}
-            </p>
+        <div className="flex items-center gap-4 flex-grow">
+          {character.image && (
+            <div className="relative w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
+              <Image
+                src={character.image}
+                alt={character.name}
+                fill
+                className="object-cover"
+                sizes="64px"
+              />
+            </div>
           )}
+          <div className="flex-grow">
+            <h3 className="font-cinzel text-lg font-semibold text-[#e8e4dc]">
+              {character.name}
+            </h3>
+            {!isExpanded && (
+              <p className="font-crimson text-sm text-muted-foreground line-clamp-1 mt-1">
+                {character.description}
+              </p>
+            )}
+          </div>
         </div>
         {isExpanded ? (
           <ChevronUp className="w-5 h-5 text-gold flex-shrink-0 ml-4" />
