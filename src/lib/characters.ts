@@ -96,7 +96,7 @@ export const characters: Character[] = [
   { id: "junta", name: "Junta", description: "A human young man. Secret cult leader. Former hunting buddy of Owen who refused to join his schemes.", appearances: ["Billy & Bluma: Double Trouble"] },
   { id: "julian", name: "Julian", description: "Mei's great grandson, born during the Millennial Kingdom.", appearances: ["The Quest for Immortality"] },
   { id: "kai", name: "Kai", description: "A mortal boy. Born to Billy and Bluma towards the end of the thousand years.", appearances: ["Dragon Unbound"] },
-  { id: "kathy", name: "Kathy", description: "A cat. Tucker found her when she was a kitten and she became Tucker's pet cat.", appearances: ["Dragon Unbound"] },
+  { id: "kathy", name: "Kathy", description: "A cat. Tucker found her when she was a kitten and she became Tucker's pet cat.", appearances: ["Dragon Unbound"], image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Kathy-1765778277490.png?width=8000&height=8000&resize=contain" },
   { id: "kit", name: "Kit", description: "A lion cub. One of Leonard & Lina's triplets.", appearances: ["Billy The Lion Boy"] },
   { id: "koen", name: "Koen", description: "A human boy Billy befriends on the way to Celestial City.", appearances: ["Billy The Lion Boy"] },
   { id: "larry", name: "Larry", description: "Logan's tenant who was raptured. A man in his sixties who plays the accordion in Abigail's church.", appearances: ["The Quest for Immortality", "Emunah Short Stories: Abigail"] },
