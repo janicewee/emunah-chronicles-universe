@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X, BookOpen, Users, Home, Library } from "lucide-react";
+import { Menu, X, BookOpen, Users, Home, Library, Trophy } from "lucide-react";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +12,7 @@ export function Navbar() {
     { href: "/books", label: "Books", icon: BookOpen },
     { href: "/characters", label: "Characters", icon: Users },
     { href: "/reading-order", label: "Reading Order", icon: Library },
+    { href: "/polls", label: "Polls", icon: Trophy },
   ];
 
   return (
