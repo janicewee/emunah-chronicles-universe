@@ -109,9 +109,15 @@ export default function PollsPage() {
     ? characters
     : characters.filter((char) =>
         char.appearances.some((appearance) =>
-          appearance.toLowerCase().includes(getBookById(bookFilter)?.title.toLowerCase() || "")
+          appearance === getBookById(bookFilter)?.title
         )
       );
+
+  useEffect(() => {
+    if (selectedCharacter && !filteredCharacters.some(char => char.id === selectedCharacter)) {
+      setSelectedCharacter("");
+    }
+  }, [bookFilter, selectedCharacter, filteredCharacters]);
 
   return (
     <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8">
