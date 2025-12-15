@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { Trophy, BookOpen, Users } from "lucide-react";
 import { books, getBookById } from "@/lib/books";
 import { characters, getCharacterById } from "@/lib/characters";
@@ -222,15 +223,16 @@ export default function PollsPage() {
                   if (!book) return null;
 
                   return (
-                    <div
+                    <Link
                       key={item.id}
+                      href={`/books/${item.id}`}
                       className="flex items-center gap-4 bg-[#0d0d14]/50 border border-gold/5 rounded-lg p-4 hover:border-gold/20 transition-colors"
                     >
                       <div className={`font-cinzel text-2xl font-bold ${index < 3 ? "text-gold" : "text-muted-foreground"} w-8`}>
                         {index + 1}
                       </div>
                       <div className="flex-1">
-                        <p className="font-crimson font-semibold text-[#e8e4dc]">
+                        <p className="font-crimson font-semibold text-[#e8e4dc] hover:text-gold transition-colors">
                           {book.title}
                         </p>
                       </div>
@@ -242,7 +244,7 @@ export default function PollsPage() {
                           votes
                         </p>
                       </div>
-                    </div>
+                    </Link>
                   );
                 })}
               </div>
@@ -268,15 +270,16 @@ export default function PollsPage() {
                   if (!character) return null;
 
                   return (
-                    <div
+                    <Link
                       key={item.id}
+                      href={`/characters/${item.id}`}
                       className="flex items-center gap-4 bg-[#0d0d14]/50 border border-gold/5 rounded-lg p-4 hover:border-gold/20 transition-colors"
                     >
                       <div className={`font-cinzel text-2xl font-bold ${index < 3 ? "text-gold" : "text-muted-foreground"} w-8`}>
                         {index + 1}
                       </div>
                       <div className="flex-1">
-                        <p className="font-crimson font-semibold text-[#e8e4dc]">
+                        <p className="font-crimson font-semibold text-[#e8e4dc] hover:text-gold transition-colors">
                           {character.name}
                         </p>
                       </div>
@@ -288,7 +291,7 @@ export default function PollsPage() {
                           votes
                         </p>
                       </div>
-                    </div>
+                    </Link>
                   );
                 })}
               </div>
