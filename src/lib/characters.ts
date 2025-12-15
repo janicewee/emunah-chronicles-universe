@@ -185,7 +185,7 @@ export const characters: Character[] = [
   { id: "tike", name: "Tike", description: "A lion cub. Grown up Mike's son.", appearances: ["Billy The Lion Boy"] },
   { id: "tim", name: "Tim", description: "A man from the West. Leo's friend who supported Beast's programs but who said he became a Christian after listening to the Two Witnesses during the Seven Year Tribulation.", appearances: ["The Quest for Immortality"] },
   { id: "tina", name: "Tina", description: "A lion cub. Grown up Mitch's daughter.", appearances: ["Billy The Lion Boy"] },
-  { id: "titan", name: "Titan", description: "Leo's elephant. Fiercely protective of and loyal to Leo and Mei.", appearances: ["The Quest for Immortality"] },
+  { id: "titan", name: "Titan", description: "Leo's elephant. Fiercely protective of and loyal to Leo and Mei.", appearances: ["The Quest for Immortality"], image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Titan-1765780597073.png?width=8000&height=8000&resize=contain" },
   { id: "toby-dog", name: "Toby", description: "A dog. Mia's pet golden retriever who views himself as her personal bodyguard.", appearances: ["Secret Hero & His Flying Lion"] },
   { id: "tobey", name: "Tobey", description: "A young man. Boris & Ava's nine-great grandson born during the Millennial Kingdom.", appearances: ["The Quest for Immortality"], image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Tobey-1765778127546.png?width=8000&height=8000&resize=contain" },
   { id: "trevor", name: "Trevor", description: "A human boy. The school bully and one of the bigger boys in St Lydia's Academy.", appearances: ["Secret Hero & His Flying Lion"] },
