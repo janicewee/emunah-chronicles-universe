@@ -196,7 +196,7 @@ export const characters: Character[] = [
   { id: "waru", name: "Waru", description: "A human man. Koen's father and village chief.", appearances: ["Billy The Lion Boy"] },
   { id: "wesley", name: "Wesley", description: "A man in his late twenties who served the King of the North as a pilot and who escaped together with Boris. Part of Boris's rescue team. Mei trained with Wesley.", appearances: ["The Quest for Immortality", "Emunah Short Stories: Mei"] },
   { id: "wilma", name: "Wilma", description: "A young woman born in the West. She became a Christian during the Tribulation and refused to take the mark of the beast.", appearances: ["The Quest for Immortality"] },
-  { id: "yan", name: "Yan", description: "An Oriental woman. Mei's childhood friend. Lived all her life in the East, returning to her old school as a teacher upon graduation. A devout Christian who was raptured.", appearances: ["The Quest for Immortality"] },
+  { id: "yan", name: "Yan", description: "An Oriental woman. Mei's childhood friend. Lived all her life in the East, returning to her old school as a teacher upon graduation. A devout Christian who was raptured.", appearances: ["The Quest for Immortality"], image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Yan-1765781427051.png?width=8000&height=8000&resize=contain" },
 ];
 
 export function getCharacterById(id: string): Character | undefined {
