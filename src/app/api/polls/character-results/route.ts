@@ -18,7 +18,7 @@ export async function GET() {
     }, {});
 
     const results = Object.entries(voteCounts)
-      .map(([characterId, count]) => ({ characterId, count }))
+      .map(([characterId, count]) => ({ id: characterId, count }))
       .sort((a, b) => b.count - a.count)
       .slice(0, 10);
 
