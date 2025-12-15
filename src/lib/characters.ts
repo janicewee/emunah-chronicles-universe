@@ -187,7 +187,7 @@ export const characters: Character[] = [
   { id: "tina", name: "Tina", description: "A lion cub. Grown up Mitch's daughter.", appearances: ["Billy The Lion Boy"] },
   { id: "titan", name: "Titan", description: "Leo's elephant. Fiercely protective of and loyal to Leo and Mei.", appearances: ["The Quest for Immortality"] },
   { id: "toby-dog", name: "Toby", description: "A dog. Mia's pet golden retriever who views himself as her personal bodyguard.", appearances: ["Secret Hero & His Flying Lion"] },
-  { id: "tobey", name: "Tobey", description: "A young man. Boris & Ava's nine-great grandson born during the Millennial Kingdom.", appearances: ["The Quest for Immortality"] },
+  { id: "tobey", name: "Tobey", description: "A young man. Boris & Ava's nine-great grandson born during the Millennial Kingdom.", appearances: ["The Quest for Immortality"], image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Tobey-1765778127546.png?width=8000&height=8000&resize=contain" },
   { id: "trevor", name: "Trevor", description: "A human boy. The school bully and one of the bigger boys in St Lydia's Academy.", appearances: ["Secret Hero & His Flying Lion"] },
   { id: "troy", name: "Troy", description: "A teenage boy from Lydia's school. Her first boyfriend.", appearances: ["Emunah Short Stories: Lydia's 12 Christmases"] },
   { id: "tucker", name: "Tucker", description: "A mortal boy. Billy's student in St. Lydia's Academy during his first year there as a teacher. Owns Kathy the cat.", appearances: ["Dragon Unbound"] },
