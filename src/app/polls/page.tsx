@@ -107,11 +107,17 @@ export default function PollsPage() {
 
   const filteredCharacters = bookFilter === "all"
     ? characters
-    : characters.filter((char) =>
-        char.appearances.some((appearance) =>
-          appearance === getBookById(bookFilter)?.title
-        )
-      );
+    : characters.filter((char) => {
+        const selectedBook = getBookById(bookFilter);
+        if (!selectedBook) return false;
+        
+        const fullTitle = selectedBook.title;
+        const shortTitle = fullTitle.replace("Emunah Short Stories: ", "");
+        
+        return char.appearances.some((appearance) => 
+          appearance === fullTitle || appearance === shortTitle
+        );
+      });
 
   useEffect(() => {
     if (selectedCharacter && !filteredCharacters.some(char => char.id === selectedCharacter)) {
