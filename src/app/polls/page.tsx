@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Trophy, BookOpen, Users } from "lucide-react";
 import { books, getBookById } from "@/lib/books";
 import { characters, getCharacterById } from "@/lib/characters";
@@ -12,8 +13,11 @@ interface LeaderboardItem {
 }
 
 export default function PollsPage() {
+  const router = useRouter();
   const [selectedBook, setSelectedBook] = useState<string>("");
   const [selectedCharacter, setSelectedCharacter] = useState<string>("");
+  const [bookComment, setBookComment] = useState<string>("");
+  const [characterComment, setCharacterComment] = useState<string>("");
   const [bookFilter, setBookFilter] = useState<string>("all");
   const [bookLeaderboard, setBookLeaderboard] = useState<LeaderboardItem[]>([]);
   const [characterLeaderboard, setCharacterLeaderboard] = useState<LeaderboardItem[]>([]);
@@ -53,12 +57,18 @@ export default function PollsPage() {
       const res = await fetch("/api/polls/vote-book", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ bookId: selectedBook }),
+        body: JSON.stringify({ bookId: selectedBook, comment: bookComment }),
       });
 
       if (res.ok) {
         await fetchLeaderboards();
+        const hadComment = bookComment.trim().length > 0;
         setSelectedBook("");
+        setBookComment("");
+        
+        if (hadComment) {
+          router.push(`/books/${selectedBook}`);
+        }
       }
     } catch (error) {
       console.error("Error voting for book:", error);
@@ -75,12 +85,18 @@ export default function PollsPage() {
       const res = await fetch("/api/polls/vote-character", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ characterId: selectedCharacter }),
+        body: JSON.stringify({ characterId: selectedCharacter, comment: characterComment }),
       });
 
       if (res.ok) {
         await fetchLeaderboards();
+        const hadComment = characterComment.trim().length > 0;
         setSelectedCharacter("");
+        setCharacterComment("");
+        
+        if (hadComment) {
+          router.push(`/characters/${selectedCharacter}`);
+        }
       }
     } catch (error) {
       console.error("Error voting for character:", error);
@@ -137,6 +153,23 @@ export default function PollsPage() {
                 </select>
               </div>
 
+              <div>
+                <label className="block font-crimson text-sm text-muted-foreground mb-2">
+                  Comment (optional) - Share what you like about this book
+                </label>
+                <textarea
+                  value={bookComment}
+                  onChange={(e) => setBookComment(e.target.value)}
+                  placeholder="What do you love about this book?"
+                  maxLength={500}
+                  rows={3}
+                  className="w-full bg-[#0d0d14] border border-gold/20 rounded-lg px-4 py-3 font-crimson text-[#e8e4dc] focus:outline-none focus:border-gold resize-none"
+                />
+                <p className="text-xs text-muted-foreground mt-1">
+                  {bookComment.length}/500 characters
+                </p>
+              </div>
+
               <button
                 onClick={handleBookVote}
                 disabled={!selectedBook || bookVoting}
@@ -190,6 +223,23 @@ export default function PollsPage() {
                     </option>
                   ))}
                 </select>
+              </div>
+
+              <div>
+                <label className="block font-crimson text-sm text-muted-foreground mb-2">
+                  Comment (optional) - Share what you like about this character
+                </label>
+                <textarea
+                  value={characterComment}
+                  onChange={(e) => setCharacterComment(e.target.value)}
+                  placeholder="What do you love about this character?"
+                  maxLength={500}
+                  rows={3}
+                  className="w-full bg-[#0d0d14] border border-gold/20 rounded-lg px-4 py-3 font-crimson text-[#e8e4dc] focus:outline-none focus:border-gold resize-none"
+                />
+                <p className="text-xs text-muted-foreground mt-1">
+                  {characterComment.length}/500 characters
+                </p>
               </div>
 
               <button

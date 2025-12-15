@@ -1,9 +1,10 @@
 import { getCharacterById } from "@/lib/characters";
 import { getBookIdByTitle } from "@/lib/books";
+import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, BookOpen } from "lucide-react";
+import { ArrowLeft, BookOpen, MessageCircle } from "lucide-react";
 
 interface CharacterPageProps {
   params: Promise<{ id: string }>;
@@ -32,6 +33,13 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
   if (!character) {
     notFound();
   }
+
+  const { data: comments } = await supabase
+    .from('character_votes')
+    .select('comment, created_at')
+    .eq('character_id', id)
+    .not('comment', 'is', null)
+    .order('created_at', { ascending: false });
 
   return (
     <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8">
@@ -95,6 +103,31 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
                 })}
               </div>
             </div>
+
+            {comments && comments.length > 0 && (
+              <div className="mt-8 pt-8 border-t border-gold/10">
+                <h2 className="font-cinzel text-xl font-semibold text-[#e8e4dc] mb-4 flex items-center gap-2">
+                  <MessageCircle className="w-5 h-5 text-gold" />
+                  Reader Comments
+                </h2>
+                <div className="space-y-4">
+                  {comments.map((comment, idx) => (
+                    <div key={idx} className="bg-[#0d0d14]/50 border border-gold/5 rounded-lg p-4">
+                      <p className="font-crimson text-muted-foreground leading-relaxed">
+                        {comment.comment}
+                      </p>
+                      <p className="font-crimson text-xs text-muted-foreground/60 mt-2">
+                        {new Date(comment.created_at).toLocaleDateString('en-US', { 
+                          year: 'numeric', 
+                          month: 'long', 
+                          day: 'numeric' 
+                        })}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

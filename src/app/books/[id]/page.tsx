@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getBookById, getBooksByReadingOrder } from "@/lib/books";
+import { supabase } from "@/lib/supabase";
 import { 
   BookOpen, 
   ArrowLeft, 
@@ -8,7 +9,8 @@ import {
   ExternalLink,
   Play,
   Library,
-  Users
+  Users,
+  MessageCircle
 } from "lucide-react";
 
 export async function generateStaticParams() {
@@ -49,6 +51,13 @@ export default async function BookDetailPage({ params }: { params: Promise<{ id:
   const currentIndex = books.findIndex((b) => b.id === book.id);
   const prevBook = currentIndex > 0 ? books[currentIndex - 1] : null;
   const nextBook = currentIndex < books.length - 1 ? books[currentIndex + 1] : null;
+
+  const { data: comments } = await supabase
+    .from('book_votes')
+    .select('comment, created_at')
+    .eq('book_id', id)
+    .not('comment', 'is', null)
+    .order('created_at', { ascending: false });
 
   return (
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
@@ -165,6 +174,31 @@ export default async function BookDetailPage({ params }: { params: Promise<{ id:
                         </p>
                       </div>
                     </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {comments && comments.length > 0 && (
+              <div className="bg-card border border-gold/10 rounded-lg p-6">
+                <h2 className="font-cinzel text-xl font-semibold text-gold mb-4 flex items-center gap-2">
+                  <MessageCircle className="w-5 h-5" />
+                  Reader Comments
+                </h2>
+                <div className="space-y-4">
+                  {comments.map((comment, idx) => (
+                    <div key={idx} className="bg-[#0d0d14]/50 border border-gold/5 rounded-lg p-4">
+                      <p className="font-crimson text-muted-foreground leading-relaxed">
+                        {comment.comment}
+                      </p>
+                      <p className="font-crimson text-xs text-muted-foreground/60 mt-2">
+                        {new Date(comment.created_at).toLocaleDateString('en-US', { 
+                          year: 'numeric', 
+                          month: 'long', 
+                          day: 'numeric' 
+                        })}
+                      </p>
+                    </div>
                   ))}
                 </div>
               </div>
