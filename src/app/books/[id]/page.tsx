@@ -121,15 +121,25 @@ export default async function BookDetailPage({ params }: { params: Promise<{ id:
               </p>
             </div>
 
-            <div>
-              <h2 className="font-cinzel text-xl font-semibold text-gold mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5" />
-                Synopsis
-              </h2>
-              <p className="font-crimson text-lg text-muted-foreground leading-relaxed">
-                {book.synopsis}
-              </p>
-            </div>
+              <div>
+                <h2 className="font-cinzel text-xl font-semibold text-gold mb-4 flex items-center gap-2">
+                  <BookOpen className="w-5 h-5" />
+                  Synopsis
+                </h2>
+                <div className="font-crimson text-lg text-muted-foreground leading-relaxed">
+                  {book.synopsis.split(/(?<=[.!?])\s+/).map((sentence, idx, arr) => (
+                    <span key={idx}>
+                      {sentence}
+                      {idx < arr.length - 1 && (
+                        <span className="inline-block mx-2 text-gold/60 text-base">
+                          {['🕯️', '🔥', '✨', '🪔', '⭐'][idx % 5]}
+                        </span>
+                      )}
+                      {idx < arr.length - 1 && ' '}
+                    </span>
+                  ))}
+                </div>
+              </div>
 
             <div className="bg-card border border-gold/10 rounded-lg p-6">
               <h2 className="font-cinzel text-xl font-semibold text-gold mb-4">
