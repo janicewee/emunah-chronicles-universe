@@ -167,15 +167,16 @@ function CharacterCard({ character, isExpanded, onToggle }: CharacterCardProps) 
       <div className="flex items-center p-4">
         <div className="flex items-center gap-4 flex-grow">
           {character.image && (
-            <div className="relative w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
-              <Image
-                src={character.image}
-                alt={character.name}
-                fill
-                className="object-contain"
-                sizes="64px"
-              />
-            </div>
+              <div className="relative w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
+                <Image
+                  src={character.image}
+                  alt={character.name}
+                  fill
+                  className="object-contain"
+                  sizes="64px"
+                  unoptimized
+                />
+              </div>
           )}
           <div className="flex-grow">
             <Link
