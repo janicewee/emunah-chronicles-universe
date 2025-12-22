@@ -53,17 +53,18 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
         </Link>
 
         <div className="bg-card border border-gold/10 rounded-lg overflow-hidden">
-          {character.image && (
-            <div className="relative w-full aspect-video md:aspect-[21/9]">
-              <Image
-                src={character.image}
-                alt={character.name}
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
-          )}
+            {character.image && (
+              <div className="relative w-full aspect-video md:aspect-[21/9]">
+                <Image
+                  src={character.image}
+                  alt={character.name}
+                  fill
+                  className="object-contain"
+                  priority
+                  unoptimized
+                />
+              </div>
+            )}
 
           <div className="p-8">
             <h1 className="font-cinzel text-3xl sm:text-4xl font-bold text-gold mb-4">
