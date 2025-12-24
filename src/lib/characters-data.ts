@@ -206,11 +206,12 @@ export const characters: Character[] = [
     description: "A Jewish man from the tribe of Judah. One of the 144,000 Jewish witnesses sealed by God.",
     appearances: ["Emunah Short Stories: Mei"]
   },
-  {
-    name: "Jake",
-    description: "An immortal man. Billy's real father who was martyred during the Tribulation and resurrected as an immortal priest.",
-    appearances: ["Billy The Lion Boy", "Dragon Unbound"]
-  },
+    {
+      name: "Jake",
+      description: "A young boy who loves collecting insects and exploring nature. A curious mind with a big heart.",
+      appearances: ["Emunah Short Stories: Jake"],
+      image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Jake-1766547300004.png?width=8000&height=8000&resize=contain"
+    },
   {
     name: "Jayden",
     description: "A handsome young man with red hair and brilliant blue eyes. Altruistic tech startup billionaire, highly influential college buddy of Oliver's. A ladies man from the West. He is Emunah's best friend and crush. Jayden met Emunah when he rescued her from drowning as a freshman in college. Upon graduation, he started his own technology business and became a billionaire tycoon. He is a member of The Church of Laodicea. Jayden, Ethan, Liam and Oliver are best of friends. Jayden falls in love with Ava and the couple is the Romeo and Juliet of the Emunah Chronicles Universe. After his death, he returns in a resurrected, immortal body as a king who reigns with the King of Kings. When he was a mortal, he was going to marry Ava, but he was killed while saving Ava's life. He returned as an immortal king with superpowers. He grows fond of Billy Lionheart and becomes a father figure to Billy and later, to Billy's descendants.",
