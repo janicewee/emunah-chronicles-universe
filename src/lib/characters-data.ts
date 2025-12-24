@@ -2,6 +2,7 @@ export interface Character {
   name: string;
   description: string;
   appearances: string[];
+  image?: string;
 }
 
 export const characters: Character[] = [
