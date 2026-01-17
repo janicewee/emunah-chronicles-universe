@@ -22,12 +22,4 @@ const nextConfig = {
   turbopack: {
     rules: {
       "*.{jsx,tsx}": {
-        loaders: [
-          path.resolve(__dirname, "src/visual-edits/component-tagger-loader.js"),
-        ],
-      },
-    },
-  },
-};
-
-module.exports = nextConfig;
+     
