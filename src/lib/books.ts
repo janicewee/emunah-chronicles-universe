@@ -511,6 +511,12 @@ The headmaster's mouth fell open as he gaped at the lion who carried himself lik
     },
     videos: [
       {
+        id: "IEhjTVnOAXk",
+        title: "Secret Hero & His Flying Lion Book Trailer",
+        description:
+          "Secret Hero & His Flying Lion by Janice Wee.",
+      },
+      {
         id: "_25vtHegnl4",
         title: "Super Powers Gone Wild",
         description:
@@ -562,6 +568,12 @@ BAM!`,
         "https://www.everand.com/book/883124950/Dragon-Unbound",
     },
     videos: [
+      {
+        id: "Bma0Xrwbo-o",
+        title: "Dragon Unbound Book Trailer",
+        description:
+          "Dragon Unbound by Janice Wee.",
+      },
       {
         id: "tU4LnnpnbUQ",
         title: "Dragon Unbound",
