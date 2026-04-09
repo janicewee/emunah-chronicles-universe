@@ -4,6 +4,7 @@ import { getBooksByReadingOrder } from "@/lib/books";
 import { characters } from "@/lib/characters";
 import { ArrowRight, BookOpen, Users, Library, Download, Star } from "lucide-react";
 import Image from "next/image";
+import { VideoPlaylist } from "@/components/VideoPlaylist";
 
 export default function Home() {
   const books = getBooksByReadingOrder();
@@ -355,6 +356,18 @@ export default function Home() {
               Start a Book Club on Fable
             </a>
           </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#0d0d14]/50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-cinzel text-2xl sm:text-3xl font-bold text-[#e8e4dc] mb-4 text-center">
+            Watch the Series
+          </h2>
+          <p className="font-crimson text-lg text-muted-foreground mb-8 text-center">
+            Book trailers, chapter readings, and more from the Emunah Chronicles Universe.
+          </p>
+          <VideoPlaylist />
         </div>
       </section>
     </div>

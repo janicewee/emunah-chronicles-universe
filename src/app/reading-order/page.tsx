@@ -78,6 +78,24 @@ export default function ReadingOrderPage() {
           ))}
         </div>
 
+        <div className="mt-16">
+          <h2 className="font-cinzel text-2xl sm:text-3xl font-bold text-[#e8e4dc] mb-4 text-center">
+            Watch the Series
+          </h2>
+          <p className="font-crimson text-lg text-muted-foreground mb-8 text-center">
+            Book trailers, chapter readings, and more from the Emunah Chronicles Universe.
+          </p>
+          <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-gold/20 shadow-2xl shadow-gold/10">
+            <iframe
+              src="https://www.youtube.com/embed/D6XdLQzGv-k?list=PLVyqR1ZxYK-OUX7naP5WbA4M_dmQZL4Bd"
+              title="Emunah Chronicles Universe Playlist"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full"
+            />
+          </div>
+        </div>
+
         <div className="mt-16 bg-card border border-gold/10 rounded-lg p-8">
           <h2 className="font-cinzel text-2xl font-bold text-gold mb-4 text-center">
             Reading Tips
