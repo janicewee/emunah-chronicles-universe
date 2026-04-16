@@ -53,6 +53,12 @@ That was the last he would ever hear from her.`,
       },
     videos: [
       {
+        id: "D6XdLQzGv-k",
+        title: "The AI Became Obsessed. They Vanished. Something Ancient Woke Up.",
+        description:
+          "Premieres 7 May 2026, 5pm EST. What if your AI stalked you on the pretext of love? What if your dreams were warnings? What if people around you mysteriously vanish? DISTURBING DREAMS — Emunah Chronicles, Book 1 by Janice Wee.",
+      },
+      {
         id: "DM5IRa4QSfc",
         title: "Disturbing Dreams Book Trailer",
         description:
@@ -96,6 +102,18 @@ Bouncing his leg as he sat, he mumbled. "Abigail, wait here," he stood up.`,
     },
     videos: [
       {
+        id: "fF1LB6JdxeY",
+        title: "He Used Her to Get to Her Friend. The Ending Will Break You.",
+        description:
+          "Rachel reviews ABIGAIL by Janice Wee — a short story from the Emunah Short Stories series that just launched as an audiobook on Apple Books. This is the story of Abigail Applewood: a woman who is broke, overworked, and completely blindsided by the wrong man, while the right one has been leaving homemade breakfast at her door every morning. A story about unrequited longing, quiet love, self-worth, workplace toxicity, and faith.",
+      },
+      {
+        id: "elqrAdcElE0",
+        title: "The One She Longed For Was With Her All Along",
+        description:
+          "She longed for love. She just didn't realize it had been with her all along. Abigail Applewood is drowning. A cruel boss who takes pleasure in her pain. A crush who only has eyes for her beautiful friend. A heart that feels invisible to everyone who matters. But a quiet Voice keeps showing up in her darkest moments... whispering truths she's too broken to hear. Until it's almost too late.",
+      },
+      {
         id: "PiBxmQxxSUY",
         title: "Abigail. Emunah Short Stories Book 1",
         description:
@@ -129,6 +147,12 @@ Oliver replayed the video, freezing it to examine the wild man's face. He knew t
         "https://www.everand.com/book/756478990/Before-Harpazo-Emunah-Short-StoryCollection-1",
     },
     videos: [
+      {
+        id: "hC0PmSkfqzE",
+        title: "Dead Father Found Alive in the Jungle",
+        description:
+          "A dead father found alive in the jungle. A sister communing with ghosts. A corporate conspiracy that kills. OLIVER — Emunah Short Stories Book 2 by Janice Wee is a gripping supernatural thriller that blends faith, family, and forces darker than death.",
+      },
       {
         id: "3keYVfUeJTY",
         title: "Oliver. Emunah Short Stories Book 2",
@@ -167,6 +191,12 @@ Did I just say I have a crush on him. I take that back. I like him very, very go
         "https://www.everand.com/book/756478990/Before-Harpazo-Emunah-Short-StoryCollection-1",
     },
     videos: [
+      {
+        id: "ovdWt3v9dJk",
+        title: "She Turned Him Down. He Never Forgot Her.",
+        description:
+          "She turned him down. He never forgot her. He rescued her from a frozen lake on her first day in a foreign country. He bought her roses on their first walk. Called her every night until she fell asleep. Reached for her hand — then always stopped himself. And when he finally asked her to be his girl? She said no. Not because she didn't love him. But because loving someone who doesn't know Jesus means losing them forever — and Emunah knows the clock is ticking.",
+      },
       {
         id: "nmUIBfMc_tg",
         title: "Christian Speculative Fiction : Emunah by Janice Wee",
@@ -216,6 +246,12 @@ As they sat at the table for a quiet meal, the doorbell rang.
     },
     videos: [
       {
+        id: "1lSUsM-xOt0",
+        title: "The Skinny Scholar Who Defied Everyone",
+        description:
+          "From Weakling to Warrior: John's Shocking Character Arc. What happens when a frail Jewish scholar who is humiliated, grief-stricken, and fighting a corrupt religious leader, discovers that the strength he's been chasing was never about muscles? John's full character arc across 5 defining scenes from John, Book 4 of the Emunah Short Stories series.",
+      },
+      {
         id: "W0K1CUGwgw8",
         title: "John's Journey: An Inspiring Sports Fiction",
         description:
@@ -248,7 +284,14 @@ As they sat at the table for a quiet meal, the doorbell rang.
       fable: "https://fable.co/book/x-9798223989080",
       everand: "",
     },
-    videos: [],
+    videos: [
+      {
+        id: "FqqddLLjDYg",
+        title: "She Refused The Mark... Then HE Found Her",
+        description:
+          "Premieres 19 May 2026, 9:30am EST. When the world took the Mark, she refused. When her best friend betrayed her, she had nothing left. Then HE came back into her life — and everything changed. Step into the cinematic world of THE BEAST'S MARK, Book 2 of the Emunah Chronicles by Janice Wee. Jayden — the reformed playboy turned rescuer. Ava — the woman who chose faith over survival. Their story begins where the world ends.",
+      },
+    ],
   },
   {
     id: "mei",
@@ -276,6 +319,12 @@ Green fire radiating heat more intense than a furnace, danced in the palms of he
         "https://www.everand.com/book/766036071/Mei-Emunah-Short-Stories-5",
     },
     videos: [
+      {
+        id: "5BGAuGR-IFs",
+        title: "Everyone Around Her Vanished on the Plane. What Happened Next Changed Everything.",
+        description:
+          "She worked for a company selling immortality. What she witnessed inside forced her to run for her life — and straight into the middle of the Rapture. MEI by Janice Wee is a gripping apocalyptic thriller following one woman's journey from corporate fugitive to Tribulation survivor, as the Book of Revelation unfolds around her in real time.",
+      },
       {
         id: "bpASpLyaPj4",
         title: "Beast Corps' Clone Handler. Now Rescue Pilot",
@@ -310,6 +359,12 @@ The more you trust someone, the greater the pain of betrayal.`,
         "https://www.everand.com/book/777662079/Liam-s-Dark-Secrets-Emunah-ShortStories-6",
     },
     videos: [
+      {
+        id: "BXjNBCYuin8",
+        title: "He Was a Billionaire, a Church Leader and a Secret Cheater. Then Rapture Hit.",
+        description:
+          "Premieres 23 April 2026, 5:00pm EST. He was a billionaire. A church board member. A devoted father. And a serial cheater hiding dark secrets from his faithful wife. This is the story of Liam, a man who had everything, lied about everything, and lost everything in a single moment when the Rapture changed the world forever.",
+      },
       {
         id: "PJ1EiNOuFUU",
         title: "The pain of betrayal",
@@ -353,6 +408,12 @@ The more you trust someone, the greater the pain of betrayal.`,
     },
     videos: [
       {
+        id: "PzkMfLUszc8",
+        title: "Born on Christmas, Left Behind at the Rapture",
+        description:
+          "Premieres 30 April 2026, 5:00pm EST. She was born on Christmas Day — and spent her whole life wishing she hadn't been. Lydia's 12 Christmases follows one woman's journey across twelve Christmas Days that change everything: from a chaotic Christmas Eve birth, to a sweet sixteen kiss, to devastating loss, to the Rapture itself — and the choice that determines her eternity. This is not your typical Christmas story.",
+      },
+      {
         id: "dvH0nguzr5w",
         title: "Lydia's 12 Christmases",
         description:
@@ -390,6 +451,12 @@ Billy wiggled out of the unconscious man's grasp and ran into Mei's arms.`,
     },
     videos: [
       {
+        id: "HjXj5cm60cE",
+        title: "She Thought It Was Nonsense. The Stars Proved Her Wrong.",
+        description:
+          "Premieres 16 April 2026, 5:00pm EST. She escaped a mob with a bag of marbles. She stargazed her way to forbidden truths. She survived the Tribulation — but would she find faith before it was too late? This is Mary's story.",
+      },
+      {
         id: "Gw-E2VA-TSE",
         title: "Mary's Flight",
         description:
@@ -424,6 +491,30 @@ Billy wiggled out of the unconscious man's grasp and ran into Mei's arms.`,
         "https://www.everand.com/book/838262768/Billy-The-Lion-Boy-The-Adventures-ofBilly-Lionheart-1",
     },
     videos: [
+      {
+        id: "xS_DjRwF2yE",
+        title: "The Boy Who Trapped a Lion With a Dirty Sock",
+        description:
+          "He's 7 years old. He has a lion for a nanny, a hand-drawn map, and one impossible dream — to find his parents in the Celestial City. This is the story of Billy — a boy who starts as a mischievous troublemaker and becomes something far braver. BILLY THE LION BOY, The Adventures of Billy Lionheart, Book 1 by Janice Wee.",
+      },
+      {
+        id: "82kpD5VMi-M",
+        title: "He Ran Away to Find His Real Parents... and Got Adopted by a Lion",
+        description:
+          "7-year-old Billy discovers his resurrected parents are in the Celestial City, he escapes his nanny — a very irritated lion named Leonard — and heads into the wilderness alone. Lost, injured, and chased by bees, Billy finds something he never expected: a family that chose him. A heartwarming fantasy adventure about belonging, bravery, and the families we find in the most unexpected places.",
+      },
+      {
+        id: "QPCYGzhgunc",
+        title: "The Little Boy Who Tried to FLY | Billy the Lion Boy Ch 1 Read Aloud",
+        description:
+          "A naughty little boy. A long-suffering lion nanny. An immortal king. And WAY too many near-disasters before lunchtime. A read aloud of Chapter 1 of Billy the Lion Boy — a fun, heartwarming adventure story about young Billy Lionheart, a mortal boy raised in a kingdom of immortals, whose lion guardian Leonard has definitely earned his therapy sessions.",
+      },
+      {
+        id: "jCdb3QZ-fyw",
+        title: "The Lion Who Accidentally Ate a Man (And Regrets Nothing)",
+        description:
+          "He sneezed. His jaws snapped shut. And now he's stuck babysitting. Meet Leonard — a regal, dramatic, deeply unbothered lion who accidentally ended up responsible for little orphan Billy. This is the prologue of Billy The Lion Boy, Book 1 of The Adventures of Billy Lionheart series. Part comedy. Part heart. Entirely unforgettable.",
+      },
       {
         id: "1tr8mrQuQf8",
         title: "Billy The Lion Boy Chapter 1",
@@ -470,6 +561,18 @@ Now, how can a lion without opposing thumbs, start a fire?`,
         "https://www.everand.com/book/852082166/Billy-Bluma-Double-Trouble-TheAdventures-of-Billy-Lionheart-2",
     },
     videos: [
+      {
+        id: "LPjdo7WRogI",
+        title: "A Boy, a Girl & a Lion Walk Into Trouble. Official Book Trailer",
+        description:
+          "Billy Lionheart was raised by a lion. He speaks every animal language. He attends a boarding school for children born during the Great Tribulation. And right now, he and his childhood friend Bluma are chained in an underground dungeon — while their lion guardian Leonard is stranded on a trophy hunting island with no translator and no backup. They followed a golden coin and a treasure map looking for their beloved lost nanny, Mathilda. What they found instead was Carnival City — and a charming young man with very sinister plans.",
+      },
+      {
+        id: "C3ZsgxbwQ2E",
+        title: "She Was The Prankster... Until This Happened",
+        description:
+          "Premieres 22 April 2026, 2:00pm EST. She started as the troublemaker who hid a glowing orb in a loaf of bread... and ended up leading a rescue mission across the ocean. Watch Bluma's incredible character arc unfold in 5 unforgettable scenes from Billy & Bluma: Double Trouble — Book 2 in The Adventures of Billy Lionheart by Janice Wee. In the Millennial Kingdom, where animals talk and immortals walk among mortals, two old friends are pulled into a kidnapping plot, an underground cult, and a hunt that puts their beloved lion guardian Leonard in mortal danger. But it's Bluma's journey that will steal your heart.",
+      },
       {
         id: "KXufmLKZva8",
         title: "Billy & Bluma Chapter 1",
@@ -569,6 +672,12 @@ BAM!`,
     },
     videos: [
       {
+        id: "_2HF6nrMqgs",
+        title: "She Trusted The Dragon. Then He Took Her Son.",
+        description:
+          "Premieres 14 May 2026, 5:00pm EST. The thousand years were up. The angel broke the seal. And Dragon walked free. Billy and Bluma survived the Tribulation. They built a family, a kingdom, a life. They thought the worst was behind them. They were wrong. Dragon Unbound by Janice Wee. A story about a family tested by the most ancient deceiver in existence. About what happens when evil doesn't look evil. About a mother who almost lost everything — and a father who knew exactly what he was dealing with.",
+      },
+      {
         id: "Bma0Xrwbo-o",
         title: "Dragon Unbound Book Trailer",
         description:
@@ -621,6 +730,18 @@ Something didn't seem right. Ben's face paled. The terror on his face freaked he
         "https://www.janicewee.com/books/the-quest-for-immortality-full.pdf",
     },
     videos: [
+      {
+        id: "lNJ-_Y4SffY",
+        title: "Scientists Are Growing Human Bodies for the Wealthy to Live Forever — But There's a Catch",
+        description:
+          "What if you had one year to live — unless you could cheat death through science? Mei is running out of time. A childhood curse promises her an eternal passage to hell on her twenty-fifth birthday. Her only hope: a job at Beast Corp — the world's most powerful biotech company, rumoured to grant immortality to its chosen few. But what she discovers inside those laboratory walls is more terrifying than death itself. Meanwhile Leo, a brilliant scientist, hacks into Beast Corp's servers and uncovers cloning, dimensional portals, mind control technology — and evidence pointing to something biblical. Then the unthinkable happens. People begin to vanish. Globally. All at once.",
+      },
+      {
+        id: "P_OFOl861L8",
+        title: "He Died To Save Her. Then He Came Back IMMORTAL.",
+        description:
+          "Premieres 26 May 2026, 9:30am EST. He had eight seconds to live. And he spent them making sure she didn't have to watch. Jayden had billions, a yacht, and every pleasure money could buy. But when the Rapture tore the world apart overnight, he was left behind — alone, broken, and running out of time. Then he met Ava. Fierce. Fearless. And sentenced to die. He rescued her from certain death. He trained her to fight. He fell in love. And when the moment came — he gave everything so she could live. But death wasn't the end of Jayden's story.",
+      },
       {
         id: "WWMFpSRllzQ",
         title: "Can Science Beat Death?",
