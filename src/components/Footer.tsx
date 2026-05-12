@@ -46,6 +46,21 @@ export function Footer() {
             <p className="text-muted-foreground font-crimson mt-2">
               Available on Amazon, Barnes & Noble, Kobo, and more.
             </p>
+            <ul className="mt-4 space-y-2 font-crimson">
+              <li>
+                <a href="https://www.janicewee.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-gold transition-colors">
+                  Visit the author&apos;s website
+                </a>
+              </li>
+              <li>
+                <a href="https://www.billylionheart.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-gold transition-colors">
+                  The Adventures of Billy Lionheart
+                </a>
+                <p className="text-muted-foreground/70 text-sm mt-0.5">
+                  Set during the Millennial Kingdom
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gold/10 text-center">
