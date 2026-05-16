@@ -77,6 +77,29 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
               </p>
             </div>
 
+            {character.extraContent && character.extraContent.length > 0 && (
+              <div className="mt-8 pt-8 border-t border-gold/10 space-y-6">
+                {character.extraContent.map((content, idx) => (
+                  <div key={idx}>
+                    {content.image && (
+                      <div className="relative w-full aspect-video rounded-lg overflow-hidden mb-4 border border-gold/10">
+                        <Image
+                          src={content.image}
+                          alt={`${character.name} additional image`}
+                          fill
+                          className="object-contain"
+                          unoptimized
+                        />
+                      </div>
+                    )}
+                    <p className="font-crimson text-lg text-muted-foreground leading-relaxed">
+                      {content.text}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
+
             <div className="mt-8 pt-8 border-t border-gold/10">
               <h2 className="font-cinzel text-xl font-semibold text-[#e8e4dc] mb-4 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-gold" />
