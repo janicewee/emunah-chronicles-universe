@@ -492,6 +492,12 @@ Billy wiggled out of the unconscious man's grasp and ran into Mei's arms.`,
     },
     videos: [
       {
+        id: "MxDI_8COlvg",
+        title: "This 7-Year-Old PICKPOCKETED A Guard To Free His Lion Family",
+        description:
+          "A boy raised by lions walks into a hotel. What could go wrong? EVERYTHING. Billy lost his parents. He was adopted by two lions — Leonard and Lina — who love him like their own cub. When they try to check into a hotel in the Celestial City, the receptionist screams, security storms in, and Billy's lion parents are tranquilized and thrown in a prison cell. But they made one fatal mistake: they underestimated a seven-year-old boy who learned everything he knows from big cats. Watch Billy pull off the most adorable jailbreak in fantasy fiction history.",
+      },
+      {
         id: "xS_DjRwF2yE",
         title: "The Boy Who Trapped a Lion With a Dirty Sock",
         description:
@@ -562,6 +568,12 @@ Now, how can a lion without opposing thumbs, start a fire?`,
     },
     videos: [
       {
+        id: "XNVi7WatawE",
+        title: "A Lion Is TERRIFIED of the Dentist — But These Kids Have a WILD Plan | Billy & Bluma Read Aloud",
+        description:
+          "Storytime! Join me as I read Chapter 1 of \"Billy & Bluma: Double Trouble\" — a hilarious adventure where two brave kids take on a lion with a toothache!\n\nLeonard the lion has a terrible toothache, but he REFUSES to let anyone touch his teeth. Can Billy and Bluma outsmart the king of the beasts? You won't believe what happens next...\n\nThis is Book 2 in The Adventures of Billy Lionheart series by Janice Wee — perfect for kids ages 5-10 who love funny animal stories, brave kid heroes, and laugh-out-loud adventures!",
+      },
+      {
         id: "LPjdo7WRogI",
         title: "A Boy, a Girl & a Lion Walk Into Trouble. Official Book Trailer",
         description:
@@ -613,6 +625,18 @@ The headmaster's mouth fell open as he gaped at the lion who carried himself lik
         "https://www.everand.com/book/865955978/Secret-Hero-His-Flying-Lion-TheAdventures-of-Billy-Lionheart-3",
     },
     videos: [
+      {
+        id: "l4qEQTXEWV8",
+        title: "Her Best Friend Has a Secret. His Lion Can Fly.",
+        description:
+          "A lion adopted a boy. A girl became his partner in chaos. Now someone wants them all gone. Secret Hero & His Flying Lion — The Adventures of Billy Lionheart, Book 3 by Janice Wee. Billy Lionheart has super strength he must hide. Leonard Lion is his guardian who can fly. Bluma is the fierce girl who stands beside them both. But when an old enemy's followers strike — weakening Leonard, collapsing a mountain, and sabotaging a car — Billy must choose: keep his secret... or save his family.",
+      },
+      {
+        id: "BL3c1tQFQkw",
+        title: "His Gym Teacher Caught a BULLET. Then Jumped Out a 10th-Floor Window.",
+        description:
+          "Billy Lionheart is twelve years old. He can speak every animal language. He has super strength. He lives with a talking lion. And today — someone just tried to kill him. His gym teacher just caught the bullet with his bare hand. And jumped out of a tenth-floor window to chase the shooter. Billy's gym teacher isn't really human. Or is he? SECRET HERO & HIS FLYING LION by Janice Wee, The Adventures of Billy Lionheart, Volume 3.",
+      },
       {
         id: "IEhjTVnOAXk",
         title: "Secret Hero & His Flying Lion Book Trailer",
