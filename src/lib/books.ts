@@ -148,6 +148,12 @@ Oliver replayed the video, freezing it to examine the wild man's face. He knew t
     },
     videos: [
       {
+        id: "Qx8Xaed7BE8",
+        title: "\"I Want Oliver.\" — When Ancient Evil Demands Your Soul",
+        description:
+          "OLIVER — A Story of Spiritual Warfare, Faith & the Unseen Battle for Your Soul\n\nHis parents were presumed gone. Their ashes sent home in a mysterious box. But when Oliver spots his father's face in a viral video, he discovers the truth — and uncovers a conspiracy that will test everything he believes.\n\nMeanwhile, his sister Lydia communes with spirits she believes are their parents. An ancient, beautiful being watches Oliver from the shadows. And in the throne room of heaven, the adversary makes his demand: \"I want Oliver.\"\n\nThis is the official book trailer for OLIVER by Janice Wee — Book 2 in the Emunah Short Stories series. A gripping Christian fiction story exploring spiritual warfare, the power of faith, evangelism in a hostile world, and the hope of Christ's return.",
+      },
+      {
         id: "hC0PmSkfqzE",
         title: "Dead Father Found Alive in the Jungle",
         description:
@@ -191,6 +197,12 @@ Did I just say I have a crush on him. I take that back. I like him very, very go
         "https://www.everand.com/book/756478990/Before-Harpazo-Emunah-Short-StoryCollection-1",
     },
     videos: [
+      {
+        id: "sUoavf9iDaI",
+        title: "She Talked to a BOX Every Day — Believing Her Dead Parents Lived Inside.",
+        description:
+          "She talked to a box every day. She believed her dead family lived inside it. But the voices she heard were not who she thought they were.\n\nWhen Emunah visits her housemate Oliver's countryside home, she expects a quiet week of rare books and family meals. Instead, she discovers a household trapped by deception. An ornate box on the mantle holds Oliver's sister Lydia in an unbreakable grip. Lydia hears voices from within. She believes her parents' ashes are inside. But her father Denver is alive — standing right in front of her.\n\nThe truth? The voices are lying. Now Emunah and Denver must hatch a desperate plan to remove the box and free Lydia before the deception consumes her entirely.\n\nThis book trailer brings to life the theme of \"Lydia's Cursed Box\" which started in Oliver (Book 3) and continues in Emunah (Book 3) in the Emunah Short Stories series by Janice Wee.",
+      },
       {
         id: "ovdWt3v9dJk",
         title: "She Turned Him Down. He Never Forgot Her.",
@@ -245,6 +257,12 @@ As they sat at the table for a quiet meal, the doorbell rang.
         "https://www.everand.com/book/756478990/Before-Harpazo-Emunah-Short-StoryCollection-1",
     },
     videos: [
+      {
+        id: "-IN9X-6Ukko",
+        title: "A Family Friend Stole Their Home — Then Demanded They Pay For It",
+        description:
+          "A Rabbi Stole His Family's Home — Then Demanded They Pay For It | JOHN Book Trailer\n\nJohn's world is falling apart. A corrupt rabbi has stolen his family's inheritance, his mother is gravely ill, and no court will hear their case. When his best friend Eli devises a daring plan to raise money through a secret church fundraiser, John risks everything — his reputation, his community, his identity — for one chance to save his mother.\n\nBut some people don't want him to succeed.",
+      },
       {
         id: "1lSUsM-xOt0",
         title: "The Skinny Scholar Who Defied Everyone",
